@@ -63,4 +63,7 @@ void mpfr_urandomb (mpfr_ptrm ROP, gmp_randstate_ptr STATE);
 #if MPFR_VERSION_MAJOR >= 3
 void mpfr_urandom (mpfr_ptr ROP, gmp_randstate_ptr STATE, mpfr_rnd_t rnd);
 #endif
+#if MPFR_VERSION_MAJOR >= 4
+void mpfr_nrandom (mpfr_ptr ROP, gmp_randstate_ptr STATE, mpfr_rnd_t rnd);
+#endif
 quote(MLMLI,"end\n")
